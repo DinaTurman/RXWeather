@@ -11,7 +11,7 @@ struct WeatherRequest: Request {
     
     let city: String
     
-    let apiKey = "2b283cff62482aa9cd381ccae5bf5eb7"
+    let apiKey = ""
     var baseUrl = "https://api.openweathermap.org"
     
     var path: String {
